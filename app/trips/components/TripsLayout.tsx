@@ -1,4 +1,4 @@
-import { ChakraComponent, Container, chakra } from "@chakra-ui/react";
+import { Container, chakra } from "@chakra-ui/react";
 
 export const TripsLayout = ({ children }: { children: React.ReactNode }) => {
   return (

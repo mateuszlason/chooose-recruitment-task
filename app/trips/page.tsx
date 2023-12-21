@@ -4,14 +4,7 @@ import { QUERY_KEY_TRIPS } from "@/constants";
 import { getPagedTrips } from "@/utils/apiRequests";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { tripsPerPage } from "../api/trips/route";
-import {
-  chakra,
-  SimpleGrid,
-  Container,
-  Spinner,
-  Box,
-  Flex,
-} from "@chakra-ui/react";
+import { SimpleGrid, Spinner, Flex } from "@chakra-ui/react";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { TripTile } from "./components/TripTile";
